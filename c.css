@@ -1,0 +1,473 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Oswald", system-ui;
+}
+
+ /* parent conatiner  */
+.parentcontainer{
+    /* border: solid; */
+    background-image: url(./images/bim22.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+ /* navbar  */
+.navbar{
+    /* border: solid; */
+    /* border-color: yellow; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:5px 20px;
+    margin: 0px 60px;
+    /* background-image: url(./images/nav2.jpg); */
+   /* background-size: cover; */
+   background-color: azure;
+   /* background-color: rgb(0, 0,0,0.1); */
+   /* position: fixed; */
+   /* z-index: 1; */
+   /* backdrop-filter: blur(50px); */
+
+   
+}
+
+/* logo  */
+#logo{
+    width:70px;
+    /* margin-left: 100px; */
+}
+
+/* campnou  */
+#campnou{
+    /* border: solid; */
+    margin-right:550px;
+    font-family: "Bungee Tint", system-ui;
+    font-size: 35px;
+}
+
+/* list li class */
+.list{
+    /* border: solid; */
+    /* padding-left: 50px; */
+    
+}
+.list1{
+    /* border: solid; */
+    display: inline;
+    list-style: none;
+    margin: 0px 20px 0px -10px;
+    /* margin-right: 40px; */
+   
+}
+
+/* listitems a class */
+.list-items{
+ text-decoration: none; 
+ color: black;
+ /* color: white;   */
+ font-weight: 600;
+}
+
+/* pseudo class lists  */
+.list-items:hover{
+color: red;
+text-decoration:underline;
+}
+#checkbox{
+    display: none;
+}
+.icon{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color:black;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+/* home  */
+.home{
+    /* background-image: url(./images/bim3.jpg); */
+    /* background-size: cover; */
+    width:100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* border: solid; */
+    /* border-color: green; */
+    
+
+}
+
+.para{
+    /* border: solid; */
+    /* border-color: blue; */
+    text-align: center;
+    padding-top: 120px;
+    /* margin: 50px; */
+}
+
+#welcome{
+font-family: "Satisfy", system-ui;
+font-size: 4rem;
+color:black;
+}
+#turfname{
+    /* font-family: "Protest Guerrilla", system-ui; */
+    font-family: "Bungee Tint", system-ui;
+    font-size: 6rem;
+    
+}
+#playlike{
+    font-family: "Protest Guerrilla", system-ui;
+    font-size: 3rem;
+    color:black;
+}
+#escape{
+    font-family: "Protest Guerrilla", system-ui;
+    font-size: 1.3rem;
+    color:black;
+}
+
+ /* location  */
+ .started{
+    /* border: solid; */
+    padding: 20px;
+    margin-top: 30px;
+    padding-top: 50px;
+    position: relative;
+    /* width: fit-content; */
+    /* height: fit-content; */
+ }
+ .nearestturf{
+    margin: 30px;
+    margin-left: 100px;
+    /* text-align: center; */
+    /* margin-left: -250px; */
+ }
+ .nearh1{
+padding: 10px;
+font-size: 2rem;
+margin-left: 150px;
+ }
+ .nearp{
+font-size: 1rem;
+color: darkgray;
+ }
+ .location{
+    /* border: solid; */
+    /* text-align: center; */
+    font-size: 1rem;
+    margin-left:240px;
+    margin-top: -10px;
+ }
+ #btt{
+      /* border: solid; */
+      border-color: green;
+      margin-right: 50px;
+      margin-top: 20px;
+      /* width: 100%; */
+ }
+ .button{
+
+    border: solid;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 90px;  
+    margin-left: 300px; 
+}
+.get{
+     color: black;
+    text-decoration: none;
+}
+.button:hover{
+    /* background-color: green; */
+    text-transform: uppercase;
+}
+.meetpal{
+    /* border: solid; */
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 800px;
+}
+#meetp{
+width: 100%;
+}
+
+
+
+/* book now  */
+#book-now{
+    /* border: solid; */
+    /* border-color: red; */
+    margin-top: 200px;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+/* border: solid; */
+/* border-radius: 70px; */
+width: 300px;
+height: 300px;
+text-align: center;
+position: relative;
+}
+.b{
+    width: 100%;
+    height: 100%;
+}
+.bkbtn{
+    /* border: solid; */
+    /* border-color: white; */
+    border-radius: 200px;
+    background-color: white;
+    padding: 10px 40px;
+    text-align: center;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 25%;
+}
+.bkbtn:hover{
+    background-color:rgb(50, 222, 6);
+    text-transform: uppercase;
+    
+}
+.bknw{
+text-decoration: none;
+color: black;
+}
+
+.bknw:hover{
+   text-transform: uppercase;
+}
+
+/* about us  */
+.aboutus{
+    margin-top: 75px;
+    /* border: solid; */
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+text-align: left;
+margin-left: 40px;
+padding: 20px;
+}
+.abtpara{
+    margin-top: 140px;
+}
+#abth1,#abtp{
+    margin-left: 30px;
+    line-height: 2rem;
+}
+#abth1{
+line-height: 100px;
+font-family: "Satisfy", system-ui;
+  font-weight: 900;
+  font-size: 3rem;
+}
+#abtp{
+font-size: 1.2rem;
+color: lightslategray;
+}
+.abtimg{
+    width: 90%;
+}
+
+/* footer*/
+footer{
+    /* border: solid; */
+    height: fit-content;
+    margin-top: 25px;
+    padding: 100px;
+    background-image: url(./images/footer\ image.jpg);
+    /* background-color: black; */
+    background-size: cover;
+    color: black;
+}
+.ftrmaindiv{
+    /* border: solid; */
+    display: grid;
+    row-gap: 50px;
+    column-gap: 10px;
+    grid-template-columns: repeat(2,4fr);
+    /* padding-left: 150px; */
+}
+.ftrdiv1{
+    margin-left: 100px;
+}
+.ftrdiv2{
+    margin-left: 90px;
+}
+.ftrh3{
+    /* border: solid; */
+}
+.ftrpara{
+line-height: 2rem;
+font-size: 1.1rem;
+}
+.address{
+line-height: 2rem;
+font-size: 1.1rem;
+
+}
+.icons{
+  /* border: solid; */
+  padding: 20px;
+  display: flex;
+justify-content: center;
+}
+.iconn{
+    width: 30px;
+margin: 20px;
+}
+.icc{
+    font-size: 30px;
+    color: black;
+}
+.icc:hover{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    /* % can be given in any pattern there should be a 0% first and 100% last */
+     0%{
+         transform: rotate(30deg);
+     }
+ 
+     20%{
+         transform: rotate(-30deg);
+     }
+ 
+     40%{
+         transform: rotate(30deg);
+     }
+ 
+     60%{
+         transform: rotate(-30deg);
+     }
+ 
+     80%{
+         transform: rotate(30deg);
+     }
+ 
+     100%{
+         transform: rotate(-30deg);
+     }
+ 
+ }
+.copy{
+    /* padding-top: 20px; */
+text-align: center;
+font-size: 1rem;
+}
+/* scrollbar  */
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 20px;
+}
+
+ /* media query  */
+/* small screen  */
+
+@media (max-width:816px) and (min-width:400px){
+    .icon{
+        display: flex;
+    }
+    
+    #closeicon{
+        display: none;
+    }
+
+    #checkbox:checked~.icon #menuicon{
+        display: none;
+    }
+    
+    #checkbox:checked~.icon #closeicon{
+        display: block;
+    }
+
+    .navbar{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .list{
+        display: none;
+        background-color: lightgray;
+        position: absolute;
+        left: 0px;
+        padding-left: 30px;
+        margin-top: 115px;
+        margin-left: 0px;
+    }
+
+    #checkbox:checked~.list{
+        display: block;
+       }
+}
+
+
+/* large screen  */
+@media (max-width:1250px) and (min-width:817px) {
+    .icon{
+        display: flex;
+    }
+    
+    #closeicon{
+        display: none;
+    }
+
+    #checkbox:checked~.icon #menuicon{
+        display: none;
+    }
+    
+    #checkbox:checked~.icon #closeicon{
+        display: block;
+    }
+
+    .navbar{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .list{
+        display: none;
+        background-color: lightgray;
+        position: absolute;
+        left: 0px;
+        padding-left: 30px;
+        margin-top: 93px;
+        margin-left: 350px;
+    }
+
+    #checkbox:checked~.list{
+        display: block;
+       }
+
+    .meetpal{
+        /* border: solid; */
+        /* display: none; */
+    }
+    #meetp{
+        width: 100%;
+        /* display: none; */
+    }
+
+}
